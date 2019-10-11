@@ -10,12 +10,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
-    }
+       
+//        ZStack
+//        VStack
+        HStack
+            {
+            Text("Hello World")
+            Text("SwiftUI")
+        }
+        
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
+}
 }
